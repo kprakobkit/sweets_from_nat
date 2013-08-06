@@ -1,0 +1,88 @@
+ @font-face{
+ 	font-family: 'ostrich';
+ 	src: url('../asset/font/ostrich-rounded.ttf');
+ }
+
+ html, body {
+ 	font-family: "ostrich";
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ 	background-image:url('../asset/img/sweetsfromnat_background2.png');
+ }
+
+ p{
+ 	font-size: 22px;
+ }
+
+ .container {
+ 	width: inherit;
+ 	height: inherit;
+ 	margin: 0;
+ 	padding: 0;
+ 	word-wrap: break-word;
+ }
+
+ #table {
+    display: table; 
+    height: 100%;
+    width: 100%;
+}
+
+#cell {
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+
+div#left {
+    float: left;
+    width: 33%;
+}
+
+
+div#center {
+  float: left;
+  width: 33%;
+}
+
+
+div#right {
+  float: left;
+  width: 33%;
+}
+
+img.logo{
+	position: relative;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -131px;
+    margin-left: -287.5px;
+}
+
+img.email{
+	position: relative;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -51px;
+    margin-left: -443.5px;
+}
+
+img.event{
+	position: relative;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -327.5px;
+    margin-left: -327.5px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
