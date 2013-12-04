@@ -6068,13 +6068,13 @@ td.visible-print {
 /*custom CSS*/
 @font-face {
   font-family: Bebas;
-  src: url('../fonts/Bebas/BEBAS___.ttf');
+  src: url('../font/Bebas/BEBAS___.ttf');
 
 }
 
 @font-face {
   font-family: Lora-Italic;
-  src: url('../fonts/Lora/Lora-Italic.ttf');
+  src: url('../font/Lora/Lora-Italic.ttf');
 }
 
 .navigation a {
